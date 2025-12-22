@@ -1,6 +1,16 @@
-<nav class="navbar">
-    <li class="nav-item">
-        <a routerLink="/bienvenue">Bienvenue</a>
-        <a routerLink="/non-trouvee">Non Trouvée</a>
-    </li>
+<nav class="navbar navbar-expand">
+    <div class="container-fluid col-auto">
+        <a class="navbar-brand" routerLink="/">Web</a>
+    </div>
+    <ul class="navbar-nav me-auto mb-0 justify-content-center w-100">
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/board">Board</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/taches">Tâches</a>
+        </li>
+    </ul>
+    <div class="container-fluid col-auto bg-black justify-content-center rounded-3">
+        <a class="nav-link text-white" routerLink="/connexion">Connexion</a>
+    </div>
 </nav>
